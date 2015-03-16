@@ -1,6 +1,7 @@
 # Site wide configuration
 
 title:            Jack Collins
+subtitle:         Adventures in Life and in Code
 locale:           en_US
 url:              http://JackWCollins.github.io
 
