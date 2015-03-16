@@ -27,8 +27,8 @@ kramdown:
 # Site owner
 owner:
   name: Jack Collins
-  avatar: https://s.gravatar.com/avatar/a07c677041dab9d3154a9ffefa43dca?s=80
-  bio: "I'm a software developer always looking for an adventure - in Rails, AngularJS, or wherever the next challenge takes me."
+  avatar: headshot.jpg
+  bio: "Software developer always looking for my next adventure, be it Rails, AngularJS, or wherever the new challenge takes me."
   email: 
   disqus-shortname: 
   twitter: #username
