@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Jack Collins
 locale:           en_US
-url:              
+url:              http://JackWCollins.github.io
 
 
 # Jekyll configuration
@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
+  name: Jack Collins
+  avatar: https://s.gravatar.com/avatar/a07c677041dab9d3154a9ffefa43dca?s=80
+  bio: "I'm a software developer always looking for an adventure - in Rails, AngularJS, or wherever the next challenge takes me."
   email: 
   disqus-shortname: 
   twitter: #username
@@ -40,9 +40,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  github: JackWCollins
+  stackoverflow: 4524789/jackcollins
+  linkedin: JackWCollins
   xing: #username
   instagram: #username
   lastfm: #username
