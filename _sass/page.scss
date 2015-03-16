@@ -40,9 +40,11 @@ body {
 		@include grid(12,1.5);
 		@include prefix(12,2);
 	}
-	subtitle {
-		color: gray;
-	}
+}
+
+/* Subtitle */
+.subtitle {
+	color: grey;
 }
 
 /* Top navigation links */
