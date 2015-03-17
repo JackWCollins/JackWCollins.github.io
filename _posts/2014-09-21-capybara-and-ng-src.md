@@ -13,7 +13,7 @@ For the Knockout Pool website I embedded many NFL team logos to help make the ti
 {% highlight ruby %}
 
 class NflTeam < ActiveRecord::Base
-	validates_presence_of :name, :conference, :division
+  validates_presence_of :name, :conference, :division
 
   has_attached_file :logo, :styles => { :medium => "300x300>", :thumb => "100x100>" }, s3_credentials: S3_CREDENTIALS, :default_url => "assets/missing.png"
   validates_attachment_content_type :logo, :content_type => /\Aimage\/.*\Z/
@@ -30,11 +30,11 @@ That is all fine and good, and whenever I needed an image I would return it from
 {% highlight coffeescript %}
 
 .panel-body
-	.text-center
-		%span
-			%p This week's pick:
-			%img{"src" => "\{\{pool_entry.nfl_team.logo_url_small\}\}" }
-			%h4 \{\{pool_entry.nfl_team.nfl_team_name\}\}
+  .text-center
+    %span
+      %p This week's pick:
+        %img{"src" => "\{\{pool_entry.nfl_team.logo_url_small\}\}" }
+        %h4 \{\{pool_entry.nfl_team.nfl_team_name\}\}
 
 {% endhighlight %}
 
@@ -43,11 +43,11 @@ The "src" is the problematic part here. The browser first will try to fetch the 
 {% highlight coffeescript %}
 
 .panel-body
-	.text-center
-		%span
-			%p This week's pick:
-			%img{"ng-src" => "\{\{pool_entry.nfl_team.logo_url_small\}\}" }
-			%h4 \{\{pool_entry.nfl_team.nfl_team_name\}\}
+  .text-center
+    %span
+      %p This week's pick:
+      %img{"ng-src" => "\{\{pool_entry.nfl_team.logo_url_small\}\}" }
+      %h4 \{\{pool_entry.nfl_team.nfl_team_name\}\}
 
 {% endhighlight %}
 
