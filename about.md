@@ -9,8 +9,8 @@ permalink: about
 ## Profile Image
 
 The following profile image is my first NFT avatar.
-<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/279.png">
-
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/headshot.jpeg``">
+``
 ## References
 
 I copied some references from [wikipedia](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) to show some markdown examples:
