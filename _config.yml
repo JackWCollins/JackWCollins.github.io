@@ -36,8 +36,8 @@ google-scholar: false
 email: blueskyflyer2@gmail.com
 
 # footer information
-footer-msg: "Powered by Tailpages"
-footer-msg-link: https://github.com/harrywang/tailpages
+footer-msg: "Jack Collins"
+footer-msg-link: https://www.linkedin.com/in/jackwcollins/
 
 # jekyll plugins - no need to change
 plugins:
